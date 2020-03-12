@@ -1,3 +1,3 @@
 ﻿  main.cpp
-c:\users\ev0057149\windesheim office365\o365-team hbo-ict zwolle - documents\team se\gp - computer graphics\02. sources\onedrive_1_2-27-2019\cg - lecture 5 - 0 - skeleton start\program1\main.cpp(32): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
-  Program1.vcxproj -> C:\Users\ev0057149\Windesheim Office365\O365-Team HBO-ICT Zwolle - Documents\Team SE\GP - Computer Graphics\02. Sources\OneDrive_1_2-27-2019\CG - Lecture 5 - 0 - Skeleton start\Debug\Program1.exe
+C:\Users\Jan\source\repos\university-graphics-opengl\Program1\main.cpp(33,56): warning C4305: 'initializing': truncation from 'double' to 'const GLfloat'
+  Program1.vcxproj -> C:\Users\Jan\source\repos\university-graphics-opengl\Debug\Program1.exe

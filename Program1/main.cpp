@@ -1,12 +1,7 @@
 #include <iostream>
 #include <GL/glew.h>
 #include <GL/freeglut.h>
-
-#if defined(__APPLE__)
-    #define GLFW_EXPOSE_NATIVE_COCOA
-    #define GLFW_EXPOSE_NATIVE_NSGL
-    #include <GLFW/glfw3native.h>   // Required for: glfwGetCocoaWindow(), glfwGetNSGLContext()
-#endif
+#include <Windows.h>
 
 using namespace std;
 
@@ -63,7 +58,7 @@ int main(int argc, char ** argv)
 {
     InitGlutGlew(argc, argv);
 
-    HWND hWnd = GetHandle();
+    HWND hWnd = GetConsoleWindow();
     ShowWindow(hWnd, SW_HIDE);
 
     glutMainLoop();
